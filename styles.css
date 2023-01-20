@@ -1,0 +1,96 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add background color */
+body {
+    background-color: #f2f2f2;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    margin-bottom: 0;
+}
+
+/* Style navigation */
+nav {
+    background-color: #555;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    list-style: none;
+    margin: 0 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+nav a:hover {
+    background-color: #7f7f7f;
+}
+
+/* Style featured phones section */
+#featured-phones {
+    padding: 20px;
+}
+#featured-phones h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.phone-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.phone-card {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+.phone-card img {
+    width: 100%;
+}
+.phone-card h3 {
+    margin: 10px 0;
+}
+.phone-card p {
+    color: #333;
+}
+.phone-card button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.phone-card button:hover {
+    background-color: #555;
+}
+
+/* Style top brands section */
+#top-brands {
+    padding: 20px;
+}
+#top-brands h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+#top-brands li {
+    list-style: none;
+    margin: 10px 0;
+    text-align: center;
+}
